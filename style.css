@@ -26,7 +26,7 @@ header,footer {
     background-blend-mode: color-burn;
 
     padding: 10px;
-    background-color: brown;
+    background-color: rgb(118, 147, 243);
     color: #f1f1f1;
 }
 
@@ -60,7 +60,7 @@ nav {
     flex-direction: column;
 
     border-left: solid 1px #f1f1f1;
-    background-color: #a52a2a90;
+    background-color: #809ef162;
     backdrop-filter: blur(3px);
     color: #f1f1f1;
 
@@ -82,7 +82,7 @@ nav ul {
 }
 
 nav li a{
-    border-bottom: solid 1px #a52a2a25;
+    border-bottom: solid 1px #3a499ef1;
 }
 
 nav li:first-child a {
@@ -105,19 +105,19 @@ nav a {
     width: 120px;
     padding: 10px;
     background-color: #f1f1f1;
-    color: brown;
+    color: rgb(141, 162, 255);
     transition: all .1s linear;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: brown;
+    background-color: rgb(157, 182, 252);
     color: #f1f1f1;
     transform: scale(1.1);
     border-radius: 5px !important;
-    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(135, 203, 255, 0.322);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(146, 208, 255, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(157, 213, 255, 0.226);
 }
 
 nav a:active {
@@ -148,7 +148,7 @@ nav a:active {
     padding-right: 40px;
     padding-left: 20px;
     border-radius: 3px;
-    background-color: brown;
+    background-color: rgb(119, 200, 253);
     overflow: hidden;
     width: max-content;
     margin: 0 0 0 -20px;
@@ -173,7 +173,7 @@ marquee img {
 
 marquee img:hover {
     filter: brightness(1.2);
-    border-color: brown;
+    border-color: rgb(59, 128, 192);
 }
 
 /* последние игры */
@@ -195,8 +195,8 @@ marquee img:hover {
 .game_item {
     position: relative;
 
-    background-color: brown;
-    border: solid 3px brown;
+    background-color: rgb(116, 153, 231);
+    border: solid 3px rgb(109, 140, 241);
     border-radius: 10px;
 
     width: 240px;
@@ -254,8 +254,8 @@ marquee img:hover {
     transform: skewX(5deg);
     transition: all .1s linear;
     padding: 5px 20px;
-    border: solid 1px #f1f1f1;
-    background-color: brown;
+    border: solid 1px #2d5288;
+    background-color: rgb(49, 69, 180);
     color: #f1f1f1;
     border-radius: 5px;
     width: max-content;
@@ -266,7 +266,7 @@ marquee img:hover {
 .game_content button:hover {
     border: solid 1px #f1f1f1;
     background-color: #f1f1f1;
-    color: brown;
+    color: rgb(120, 147, 221);
 }
 
 .game_content button:active {
